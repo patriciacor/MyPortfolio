@@ -1,0 +1,30 @@
+.footer{
+  display: flex;
+   margin-top:99vh;
+    width: 100vw;
+    height:13vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#004d40;
+  }
+  
+  .footer-content h5{
+    font-size: 30px;
+  font-weight: bold;  
+  color:#ffff;
+}
+  .social-network{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top:1em ;
+  }
+  .social-network img{
+    width:30px;
+    height:25px;
+  }
+  .social-network .link{
+    width:50px;
+    height:50px;
+  }

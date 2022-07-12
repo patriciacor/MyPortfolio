@@ -1,0 +1,43 @@
+.projects{
+  
+    padding:50px 100px;
+    display:flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top:5px;
+    color:#439688;
+    background-color:#00685b;
+}
+.proj-1{
+    width:65%;
+}
+.proj-1-title{
+font-size: 50px;
+font-weight: 600;
+
+}
+.proj-1-desc{
+    margin:20px 5px;
+}
+.project-List{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+
+}
+@media screen and (max-width:480px) {
+    .projects{
+        padding:10px;
+    }
+    .proj-1{
+        width:100%;
+ 
+    }
+    .proj-1-desc{
+      display: none;
+    }
+}
